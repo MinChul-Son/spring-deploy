@@ -11,6 +11,6 @@ public class HelloController {
     @GetMapping("/")
     public String home() {
         log.info("--------- Request ---------");
-        return "Hello!!";
+        return "Hello!! This is version 2";
     }
 }
